@@ -1,11 +1,11 @@
- import React from 'react'
+import React from 'react'
  import Image from 'next/image'
-import Navbar from './Navbar'
+import Navbar from './Navbar';
 const Hero = () => {
   return (
     
   <div className='min-screen-left'>
-    <Navbar/>
+    <Navbar />
     <h1 className="text-5xl text-center text-white font-serif py-12 ">I M Nargis Ikram</h1>
     <div className="py-8 gap-48 flex justify-center items-center">
         <Image 
